@@ -33,7 +33,7 @@ def index():
         url = request.form['url'].strip()
         if not url:
             flash("Please enter a valid YouTube video URL.", "danger")
-            return render_template('index2.html')
+            return render_template('index.html')
 
         try:
             video_info = simple_info(url)
@@ -59,7 +59,7 @@ def index():
             flash(f"Error: {str(e)}", "danger")
 
     return render_template(
-        'index2.html',
+        'index.html',
         graphs=graphs,
         stats=stats,
         video_info=video_info
