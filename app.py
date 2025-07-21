@@ -33,7 +33,7 @@ def index():
         url = request.form['url'].strip()
         if not url:
             flash("Please enter a valid YouTube video URL.", "danger")
-            return render_template('index.html')
+            return render_template('index2.html')
 
         try:
             video_info = simple_info(url)
