@@ -59,7 +59,7 @@ def index():
             flash(f"Error: {str(e)}", "danger")
 
     return render_template(
-        'index.html',
+        'index2.html',
         graphs=graphs,
         stats=stats,
         video_info=video_info
