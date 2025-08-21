@@ -6,6 +6,9 @@ The system uses **Flask** as the backend, integrates **ML models** for comment a
 🔗 **Live Demo:** [YouTube Comment Analyzer](https://youtube-analyzer-0pfr.onrender.com/)
 
 ---
+### Image
+<img width="392" height="725" alt="image" src="https://github.com/user-attachments/assets/f3f6a76a-bf8e-4092-be92-a7c7ea9258bb" />
+
 
 ## 🚀 Features
 - **Sentiment Analysis**: Classifies comments into *Positive, Negative, Neutral* using ML models.
